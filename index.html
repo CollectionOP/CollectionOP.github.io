@@ -87,7 +87,7 @@
                         more</a>
                 </div>
 
-                <div class="lg:w-2/5 mt-20 lg:mt-0">
+                <div class="lg:w-2/5 lg:flex lg:justify-end mt-20 lg:mt-0">
                     <img src="assets/s2-Illustration.png" alt="">
                 </div>
             </div>
@@ -97,25 +97,70 @@
     <section>
         <div class="container px-4 flex flex-col lg:flex-row md:justify-between py-14 lg:py-28">
 
-            <div class="lg:w-2/5 relative z-0 lg:static">
+            <div class="lg:w-2/4 relative z-0 lg:static">
                 <img src="assets/section-white-ilustration.png" alt="">
             </div>
 
             <div class="lg:w-2/5 relative bottom-96 z-1 lg:static">
-                <h2 class="md:w-3/4 text-2xl lg:text-3xl font-bold leading-normal mt-8">
-                    Start your journey with DocBank and worry about your docs no more!
-                </h2>
-                <p class="my-6">Contact us for pricing and availabilty.</p>
-                <a class="block w-fit py-3 px-5 font-medium bg-violet-600
+                <div class="lg:flex lg:flex-col items-end">
+                    <h2 class="md:w-3/4 lg:text-end text-2xl lg:text-3xl font-bold leading-normal mt-8">
+                        Start your journey with DocBank and worry about your docs no more!
+                    </h2>
+                    <p class="my-6">Contact us for pricing and availabilty.</p>
+                    <a class="block w-fit py-3 px-5 font-medium bg-violet-600
                      text-white rounded-sm" href="">Contact us
-                </a>
+                    </a>
+                </div>
             </div>
 
         </div>
     </section>
 
-    <footer>
+    <footer class="bg-black">
+        <div class="container flex flex-col md:flex-row justify-around px-4 py-14">
+            <div class="max-h-28 flex items-center w-2/6 pl-5 sm:pl-10 md:pl-0">
+                <img src="assets/logo.svg" alt="">
+                <span class="font-bold text-white">DocBank</span>
+            </div>
 
+            <div class="footer-links w-9/12">
+                <div class="links text-gray-300 flex flex-wrap md:flex-nowrap
+                             justify-center items-center leading-7 text-sm ">
+
+                    <ul class="w-2/4 sm:w-1/4 md:w-2/6 mt-10 pl-14 sm:pl-0 sm:mx-8">
+                        <li class="text-gray-500 pb-5">Features</li>
+                        <li><a href="">SSO</a></li>
+                        <li class="w-28"><a href="">API Integration</a></li>
+                        <li class="w-28"><a href="">App Directory</a></li>
+                    </ul>
+                    <ul class="w-2/4 sm:w-1/4 md:w-2/6 mt-10 pl-14 sm:pl-0  sm:mx-8">
+                        <li class="text-gray-500 pb-5">Pricing</li>
+                        <li><a href="">Education</a></li>
+                        <li><a href=""></a>Enterprise</li>
+                        <li><a href="">Pro</a></li>
+                    </ul>
+                    <ul class="w-2/4 sm:w-1/4 md:w-2/6 mt-10 pl-14 sm:pl-0  sm:mx-8">
+                        <li class="text-gray-500 pb-5">Company</li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Leadership</a></li>
+                    </ul>
+                    <ul class="w-2/4 sm:w-1/4 md:w-2/6 mt-10 pl-14 sm:pl-0  sm:mx-8">
+                        <li class="text-gray-500 pb-5">Blog</li>
+                        <li class="w-28"><a href="">DocBank 101</a></li>
+                        <li><a href="">Using Tables in DocBank</a></li>
+                    </ul>
+                </div>
+                <div class="media flex w-2/4 my-8 mx-14 sm:mx-20 md:mx-0 lg:mx-8">
+                    <img class="mr-10" src="assets/instagram.svg" alt="">
+                    <img class="mr-10" src="assets/twitter.svg" alt="">
+                    <img class="mr-10" src="assets/youtube.svg" alt="">
+                </div>
+                <div class="copyright w-80 sm:w-4/4 my-8 mx-14 sm:mx-20 md:mx-0 lg:mx-8">
+                    <p class="text-gray-400">&copy; 2023 All rights reserved &nbsp; &nbsp; Impressum</p>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 
